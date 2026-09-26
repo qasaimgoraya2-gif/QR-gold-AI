@@ -1,0 +1,8 @@
+{
+  "name": "QR Guard AI",
+  "description": "Intelligent QR scanner, generator, website security checker, and AI authenticity assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
