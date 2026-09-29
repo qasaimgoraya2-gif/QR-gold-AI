@@ -35,7 +35,7 @@ abstract class AppDatabase : RoomDatabase() {
                     context.applicationContext,
                     AppDatabase::class.java,
                     "qr_guard_ai.db"
-                ).fallbackToDestructiveMigration().build()
+                ).fallbackToDestructiveMigration(true).build()
                 INSTANCE = instance
                 instance
             }
